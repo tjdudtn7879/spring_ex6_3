@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<bean id="singer3" class="com.lgy.springex_6_3.Singer">
+		<constructor-arg value="블랙핑크"></constructor-arg>
+		<property name="member">
+			<value>4</value>
+		</property>
+		<property name="song">
+			<list>
+				<value>블랙 핑 인여 에리어~</value>
+				<value>우리사랑은 불~장~난</value>
+			</list>
+		</property>
+	</bean>
+</beans>
